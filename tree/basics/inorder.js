@@ -1,6 +1,6 @@
 import Node from '../helpers/node';
 
-function inOrder(node) {
+export function inOrder(node) {
     if(!node) {
         return;
     }
